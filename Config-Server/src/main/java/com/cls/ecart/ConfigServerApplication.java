@@ -12,7 +12,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @Configuration Is used by spring container act as source bean definitions.
  * 
  * @EnableConfigServer
- * It configure your application as config server.
+ * It makes your service as config server.
  */
 @SpringBootApplication
 @EnableConfigServer
