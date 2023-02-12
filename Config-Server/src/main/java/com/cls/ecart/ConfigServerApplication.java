@@ -21,11 +21,12 @@ public class ConfigServerApplication {
 	/*
 	 * Purpose of config server and How to enable it?
 	 * 
-	 * To enbale config server first we need to add spring cloud config server
-	 * dependencies. Default port number is 8888. It acts like as centralized server
-	 * or common server. So keep all properties file on this server, so we don't
-	 * need to right properties individually for the service we just add config
-	 * server url in that application.
+	 * To enable config server first we need to add spring cloud config server
+	 * dependencies , and use @EnableConfigServer annotations. Default port number
+	 * is 8888. It acts like as centralized server or common server. So keep all
+	 * properties file on this server, so we don't need to right properties
+	 * individually for the service we just add config server url in that
+	 * application.
 	 */
 
 	public static void main(String[] args) {
