@@ -10,6 +10,14 @@ public class CliCategoryServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CliCategoryServiceApplication.class, args);
+		System.out.println("****************************************************");
+		System.out.println("****************************************************");
+		System.out.println("****************************************************");
+		System.out.println("*********** CLI- Category Service Started **********");
+		System.out.println("****************************************************");
+		System.out.println("****************************************************");
+		System.out.println("****************************************************");
+		System.out.println("****************************************************");
 	}
 
 }
